@@ -1,4 +1,3 @@
-//.h
 
 
 
@@ -20,7 +19,7 @@
 #include <stdlib.h> // for system()
 #include <string.h>
 #else
-#  include <unistd.h>
+#include <unistd.h>
 #endif
 #include <FL/Fl.H>
 #include <FL/Fl_Double_Window.H>
@@ -32,7 +31,7 @@
 
 #include "FL/Fl_Output.H"
 #include "FL/Fl_Progress.H"
-//#include <process.h>
+#include <process.h>
 #include "DemoMichael.h"
 
 
