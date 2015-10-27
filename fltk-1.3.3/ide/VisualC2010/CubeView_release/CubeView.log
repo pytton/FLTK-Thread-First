@@ -1,0 +1,23 @@
+﻿Build started 10/15/2015 21:47:10.
+     1>Project "C:\Users\Michael\Dropbox\Code\FLTK\Win10laptop\fltk-1.3.3\ide\VisualC2010\CubeView.vcxproj" on node 5 (Build target(s)).
+     1>CustomBuild:
+         Create .cxx and .h file with fluid
+         Compiling fluid files ...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I. /I..\..\zlib /I..\..\png /I..\..\jpeg /I../.. /Zi /nologo /W1 /WX- /Od /Ob2 /Os /Oy- /D _CRT_SECURE_NO_DEPRECATE /D WIN32 /D NDEBUG /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D VC_EXTRA_LEAN /D WIN32_EXTRA_LEAN /D _VC80_UPGRADE=0x0710 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\CubeView_release\\" /Fd".\CubeView_release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\test\CubeMain.cxx ..\..\test\CubeView.cxx ..\..\test\CubeViewUI.cxx
+         CubeMain.cxx
+         CubeView.cxx
+         CubeViewUI.cxx
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../test/CubeView.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib opengl32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\CubeView_release\CubeView.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\test\CubeView.lib" /MACHINE:X86 /SAFESEH .\CubeView_release\CubeMain.obj
+         .\CubeView_release\CubeView.obj
+         .\CubeView_release\CubeViewUI.obj
+         "C:\Users\Michael\Dropbox\Code\FLTK\Win10laptop\fltk-1.3.3\lib\fltk.lib"
+         "C:\Users\Michael\Dropbox\Code\FLTK\Win10laptop\fltk-1.3.3\lib\fltkgl.lib"
+         CubeView.vcxproj -> C:\Users\Michael\Dropbox\Code\FLTK\Win10laptop\fltk-1.3.3\ide\VisualC2010\..\..\test\CubeView.exe
+     1>Done Building Project "C:\Users\Michael\Dropbox\Code\FLTK\Win10laptop\fltk-1.3.3\ide\VisualC2010\CubeView.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.81

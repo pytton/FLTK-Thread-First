@@ -1,0 +1,26 @@
+﻿Build started 10/15/2015 20:01:09.
+     1>Project "C:\Users\Michael\Dropbox\Code\FLTK\Win10laptop\fltk-1.3.3\ide\VisualC2010\fltkforms.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I. /I..\..\zlib /I..\..\png /I..\..\jpeg /I../.. /Zi /nologo /W1 /WX- /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D FL_LIBRARY /D WIN32 /D _DEBUG /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D VC_EXTRA_LEAN /D WIN32_EXTRA_LEAN /D _VC80_UPGRADE=0x0710 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\fltkforms_debug\\" /Fd".\fltkforms_debug\fltkforms.pdb" /FR".\fltkforms_debug\\" /Gd /TP /analyze- /errorReport:prompt ..\..\src\forms_bitmap.cxx ..\..\src\forms_compatability.cxx ..\..\src\forms_free.cxx ..\..\src\forms_fselect.cxx ..\..\src\forms_pixmap.cxx ..\..\src\forms_timer.cxx
+         forms_bitmap.cxx
+         forms_compatability.cxx
+         forms_free.cxx
+         forms_fselect.cxx
+         forms_pixmap.cxx
+         forms_timer.cxx
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\lib\fltkformsd.lib" /NOLOGO .\fltkforms_debug\forms_bitmap.obj
+         .\fltkforms_debug\forms_compatability.obj
+         .\fltkforms_debug\forms_free.obj
+         .\fltkforms_debug\forms_fselect.obj
+         .\fltkforms_debug\forms_pixmap.obj
+         .\fltkforms_debug\forms_timer.obj
+         fltkforms.vcxproj -> C:\Users\Michael\Dropbox\Code\FLTK\Win10laptop\fltk-1.3.3\ide\VisualC2010\..\..\lib\fltkformsd.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\..\lib\fltkformsd.bsc" .\fltkforms_debug\forms_bitmap.sbr .\fltkforms_debug\forms_compatability.sbr .\fltkforms_debug\forms_free.sbr .\fltkforms_debug\forms_fselect.sbr .\fltkforms_debug\forms_pixmap.sbr .\fltkforms_debug\forms_timer.sbr
+     1>Done Building Project "C:\Users\Michael\Dropbox\Code\FLTK\Win10laptop\fltk-1.3.3\ide\VisualC2010\fltkforms.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.63
