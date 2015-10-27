@@ -1,10 +1,7 @@
-﻿Build started 10/27/2015 12:00:45.
+﻿Build started 10/27/2015 12:43:43.
      1>Project "C:\Users\Michael\Code\FLTK-Thread-First\Try\Try\Try.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt DemoMichael.cpp Test_FLTK.cpp
-         Test_FLTK.cpp
-     1>c:\users\michael\code\fltk-thread-first\try\try\test_fltk.cpp(49): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt DemoMichael.cpp
          DemoMichael.cpp
      1>c:\users\michael\code\fltk-thread-first\try\try\demomichael.cpp(59): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
@@ -14,87 +11,15 @@
          c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
      1>c:\users\michael\code\fltk-thread-first\try\try\demomichael.cpp(122): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-     1>c:\users\michael\code\fltk-thread-first\try\try\demomichael.cpp(347): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-     1>c:\users\michael\code\fltk-thread-first\try\try\demomichael.cpp(349): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\michael\code\fltk-thread-first\try\try\demomichael.cpp(350): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\michael\code\fltk-thread-first\try\try\demomichael.cpp(352): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\Try.exe" /INCREMENTAL /NOLOGO wsock32.lib fltkd.lib comctl32.lib fltkjpegd.lib fltkimagesd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\Try.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\Try.lib" /MACHINE:X86 Debug\DemoMichael.obj
          Debug\Test_FLTK.obj
-     1>fltkd.lib(case.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(case.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(filename_list.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(filename_list.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(filename_match.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(filename_match.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_abort.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_abort.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_arc.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_arc.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_arci.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_arci.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_ask.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_ask.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Bitmap.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Bitmap.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Box.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Box.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_boxtype.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_boxtype.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Button.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Button.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_call_main.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_call_main.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_color.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_color.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_compose.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_compose.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_cursor.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_cursor.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_curve.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_curve.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Device.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Device.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_dnd.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_dnd.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Double_Window.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Double_Window.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_draw.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_draw.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_draw_image.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_draw_image.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_draw_pixmap.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_draw_pixmap.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_font.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_font.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_get_system_colors.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_get_system_colors.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_grab.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_grab.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Group.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Group.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_gtk.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_gtk.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_gleam.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_gleam.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Image.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Image.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Input.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Input.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Input_.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Input_.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_labeltype.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_labeltype.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_line_style.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_line_style.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_lock.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_lock.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Menu.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Menu.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Menu_.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Menu_.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Menu_add.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Menu_add.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Menu_Button.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Menu_Button.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Menu_Window.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Menu_Window.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Overlay_Window.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Overlay_Window.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Pixmap.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Pixmap.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_plastic.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_plastic.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Preferences.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Preferences.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Progress.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Progress.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_read_image.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_read_image.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_rect.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_rect.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Repeat_Button.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Repeat_Button.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Return_Button.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Return_Button.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_round_box.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_round_box.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_shortcut.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_shortcut.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Single_Window.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Single_Window.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Slider.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Slider.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_symbols.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_symbols.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Tiled_Image.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Tiled_Image.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Tooltip.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Tooltip.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_utf.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_utf.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_utf8.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_utf8.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Valuator.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Valuator.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(fl_vertex.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_vertex.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Widget.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Widget.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Window.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Window.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Window_fullscreen.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Window_fullscreen.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Window_hotspot.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Window_hotspot.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(Fl_Window_shape.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Window_shape.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(flstring.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(flstring.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(is_spacing.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(is_spacing.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(numericsort.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(numericsort.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(scandir.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(scandir.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(screen_xywh.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(screen_xywh.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
-     1>fltkd.lib(vsnprintf.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(vsnprintf.obj)' or at 'C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\fltk.pdb'; linking object as if no debug info
          Try.vcxproj -> C:\Users\Michael\Code\FLTK-Thread-First\Try\Debug\Try.exe
      1>Done Building Project "C:\Users\Michael\Code\FLTK-Thread-First\Try\Try\Try.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.29
+Time Elapsed 00:00:01.17

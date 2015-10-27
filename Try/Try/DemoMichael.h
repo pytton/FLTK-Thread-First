@@ -35,6 +35,12 @@ public:
 	BOOL m_bDownPressed;
 
 	//Fl_Progress *m_pProgressBar;
+	//below are callback functions used by buttons(widgets). They have to be static because of FLTK guidlines
+	//static function means that it is the same for every single object (of class) created.
+	//you do not need to create an object of this class to use a static function.
+	//static members are shared and the same for every object of the class.
+	//static function DOES NOT HAVE A "this" POINTER
+	//static function can only use static members (functions and variables)
 
 	static void  StartButtonClick(Fl_Widget * pWidget, void * pVoid);
 	static void  StopButtonClick(Fl_Widget * pWidget, void * pVoid);

@@ -238,9 +238,9 @@ CustomWnd::CustomWnd():Fl_Window(500,500)
 }
 
 
-CustomWnd * CustomWnd::CreateWnd()
+CustomWnd * CustomWnd::CreateWnd()//static
 {
-	if (NULL == m_pSingletonWnd)
+	if (NULL == m_pSingletonWnd)//static
 	{
 		m_pSingletonWnd = new CustomWnd();
 	}
@@ -275,6 +275,9 @@ void StartDemo()
 	//return;
 
 	CustomWnd * pCustomwWnd = CustomWnd::CreateWnd();
+	CustomWnd * pCustomwWnd2 = CustomWnd::CreateWnd();
+	CustomWnd * pCustomwWnd3 = CustomWnd::CreateWnd();
+	CustomWnd * pCustomwWnd4 = CustomWnd::CreateWnd();
 
 	pCustomwWnd->show();
 
